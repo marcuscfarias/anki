@@ -36,7 +36,7 @@ Or you can see the photos below.
 #### 3.3 Architecture and patterns
 
 ## 3. Feature Table
-#### Status: `⏳ Planned` &rarr; `⚙️ In Progress` &rarr;`✅ Done`
+#### Status: `⏳ Planned` &rarr; `⚙️ In Progress` &rarr; `✅ Done`
 
 | ID |  Feature  |              Description               |      Status      |
 |:--:|:---------:|:--------------------------------------:|:----------------:|
