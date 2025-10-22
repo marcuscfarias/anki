@@ -1,9 +1,12 @@
-﻿namespace Domain.Entities;
+﻿using Domain.ValueObjects;
 
+namespace Domain.Entities;
+
+//TODO: property validation
 public class User(
     string username,
     string password,
-    string email,
+    Email email,
     DateOnly birthDate,
     bool isActive,
     DateTimeOffset createdAt)
@@ -11,7 +14,7 @@ public class User(
 {
     public string Username { get; private set; } = username;
     public string Password { get; private set; } = password;
-    public string Email { get; private set; } = email;
+    public Email Email { get; private set; } = email;
     public DateOnly BirthDate { get; private set; } = birthDate;
     public bool IsActive { get; private set; } = isActive;
     public DateTimeOffset CreatedAt { get; private set; } = createdAt;

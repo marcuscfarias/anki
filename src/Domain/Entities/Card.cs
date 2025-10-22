@@ -1,5 +1,6 @@
 ﻿namespace Domain.Entities;
 
+//TODO: property validation
 public class Card(int deckId, string front, string back, DateTimeOffset dueAt)
     : BaseEntity
 {
