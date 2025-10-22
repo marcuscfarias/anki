@@ -2,7 +2,7 @@
 
 public sealed class Email : ValueObject
 {
-    //TODO: propety validation
+    //TODO: propety validation and add rules
     public Email(string value)
     {
         Value = value ?? throw new ArgumentNullException(nameof(value));
