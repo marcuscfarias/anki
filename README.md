@@ -44,21 +44,23 @@ Or you can see the photos below.
 
 #### Status: `⏳ Planned` &rarr; `⚙️ In Progress` &rarr; `✅ Done`
 
-| ID |       Feature        |                        Description                         |   Status    |
-|:--:|:--------------------:|:----------------------------------------------------------:|:-----------:|
-| 1  |       Database       |           implement and draw all database schema           | `⏳ Planned` |
-| 2  |      User CRUD       |             create, read, update, delete users             | `⏳ Planned` |
-| 3  |    Authentication    |              secure signup, signin and logout              | `⏳ Planned` |
-| 4  |    Authorization     | role-based access control and multi-tenancy (scholar plan) | `⏳ Planned` |
-| 5  | Configuration CI/CD  |                                                            | `⏳ Planned` |
-| 6  |   Azure Deployment   |                                                            | `⏳ Planned` |
-| 7  | Notification Service |              secure signup, signin and logout              | `⏳ Planned` |
-| 8  |   Payment Service    |                      Asaas or stripe                       | `⏳ Planned` |
-| 9  |   Caching strategy   |                         add redis                          | `⏳ Planned` |
-| 10 |    Config Scalar     |               change swagger docs to scalar                | `⏳ Planned` |
-| 11 |    IA integration    |                  build decks with api key                  | `⏳ Planned` |
-| 12 |      Front-End       |                     react and lovable                      | `⏳ Planned` |
-| 13 |        HTTPS         |                    generate certificate                    | `⏳ Planned` |
+| ID |          Feature           |                        Description                         |   Status    |
+|:--:|:--------------------------:|:----------------------------------------------------------:|:-----------:|
+| 1  |          Database          |    config entities and implement database configuration    | `⏳ Planned` |
+| 2  |       Entities CRUD        |            implement application and API layer             | `⏳ Planned` |
+| 3  |       Authentication       |              secure signup, signin and logout              | `⏳ Planned` |
+| 4  |       Authorization        | role-based access control and multi-tenancy (scholar plan) | `⏳ Planned` |
+| 5  | Space Repetition Algorithm |               add a algorithm for the cards                | `⏳ Planned` |
+| 6  |         Front-End          |      build interface for the user: react and lovable       | `⏳ Planned` |
+| 7  |    Configuration CI/CD     |                                                            | `⏳ Planned` |
+| 8  |      Azure Deployment      |                                                            | `⏳ Planned` |
+| 9  |           HTTPS            |                    generate certificate                    | `⏳ Planned` |
+| 10 |           Docker           |           set the container for the application            | `⏳ Planned` |
+| 11 |      Caching strategy      |                         add redis                          | `⏳ Planned` |
+| 12 |      Payment Service       |                      Asaas or stripe                       | `⏳ Planned` |
+| 13 |       IA integration       |                  build decks with api key                  | `⏳ Planned` |
+| 14 |    Notification Service    |                                                            | `⏳ Planned` |
+| 15 |       Config Scalar        |               change swagger docs to scalar                | `⏳ Planned` |
 
 ## 4. Getting started
 
@@ -75,6 +77,7 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ## 7. More technical details
 
 #### Users
+
 ```
 - [ ] JWT Authentication
 - [ ] Authorization (role-base and claim access control)
@@ -85,6 +88,7 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Generic Features
+
 ```
 - [ ] Generic exceptions (structure logs with sentry)
 - [ ] Global error handler middleware
@@ -92,12 +96,14 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Notification Features
+
 ```
 - [ ] Email/SMS reminders for appointments using a background service, outbox pattern.
 - [ ] IHostedService and webhooks
 ```
 
 ### Payment Integration (Asaas)
+
 ```
 - [ ] still thinking about this
 - [ ] Subscription Workflow (Update payment status based on webhook)
@@ -105,6 +111,7 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Roles features
+
 ```
 - [ ] Admin – Full control over CRUD and payments
 - [ ] Instructor (optional) – Can create/update their own courses
@@ -112,16 +119,19 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Caching with redis features
+
 ```
 - [ ] still thinking about this
 ```
 
 ### Logging features
+
 ```
 - [ ] still thinking about this (Serilog)
 ```
 
 ### Architecture and Design:
+
 ```
 - [ ] Repository
 - [ ] Clean Architecture
@@ -131,6 +141,7 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Deployment:
+
 ```
 - [ ] CD/CI with GitHub actions (Build & Test, Dockerize API, Push Image to GitHub Container Registry, Push Image to
   GitHub Container Registry)
@@ -141,6 +152,7 @@ the [LICENSE.md](https://github.com/marcuscfarias/anki/blob/main/README.md) file
 ```
 
 ### Documentation
+
 ```
 - [ ] automatically generate them
 ```
